@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 app.get('/', (req, res) => {
-    res.send('<h1> ITI-graduation-project hosted by Bassemkamel</h1>')
+    res.send('Hello World from ITI 3 month')
   })
   
   app.listen(port, () => {
