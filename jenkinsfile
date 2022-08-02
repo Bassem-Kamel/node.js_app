@@ -28,6 +28,7 @@ pipeline {
               sh "docker push bassem22docker/myrepo:nodeapp"
 
             }
+           }
 
         stage ('deploy app'){
             steps {
